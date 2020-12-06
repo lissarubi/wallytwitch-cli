@@ -1,0 +1,30 @@
+{
+  "name": "wallytwitch",
+  "version": "1.5.0",
+  "description": "A Twitch program to find if a certain user is watching a stream",
+  "main": "index.js",
+  "bin": {
+    "wally": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edersonferreira/wallytwitch.git"
+  },
+  "keywords": [
+    "wally",
+    "twitch"
+  ],
+  "author": "Ederson Ferreira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edersonferreira/wallytwitch/issues"
+  },
+  "homepage": "https://github.com/edersonferreira/wallytwitch#readme",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "node-fetch": "^2.6.1"
+  }
+}
